@@ -1,5 +1,5 @@
 # 1
-проекти
+projects
 import speech_recognition as sr
 from gtts import gTTS
 import pygame
@@ -7,7 +7,7 @@ import time
 import os
 import webbrowser
 
-# Функція голосу
+# Voice function
 def speak(text):
     tts = gTTS(text=text, lang="uk")
     tts.save("voice.mp3")
@@ -22,7 +22,7 @@ def speak(text):
     os.remove("voice.mp3")
 
 
-# Функція слухання
+# Listening function
 def listen():
     r = sr.Recognizer()
     with sr.Microphone() as source:
@@ -37,7 +37,7 @@ def listen():
         return ""
 
 
-# Старт
+# Start
 speak("Привіт, я твій голосовий асистент. Скажи команду")
 
 while True:
