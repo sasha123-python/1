@@ -1,0 +1,12 @@
+## ⚠️ Important (RGB / Aura on ASUS laptops)
+
+On ASUS laptops (ROG, TUF, etc.), keyboard RGB / Aura lighting has **limited support on Linux**.
+
+❌ Aura Sync and Armoury Crate are **not available on Linux**  
+❌ Built-in laptop keyboards are **often not detected** by OpenRGB  
+❌ Full RGB control like on Windows is **not possible**
+
+✅ External USB RGB keyboards usually work fine  
+✅ RGB works on Windows because ASUS provides official drivers
+
+This is **not a bug**, but a **Linux limitation and closed ASUS firmware**.
